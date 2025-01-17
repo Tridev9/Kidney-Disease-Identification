@@ -14,7 +14,7 @@ class PredictionPipeline:
     def predict(self):
         # load model
          # Get the absolute path to the model file
-        model_path = os.path.join("artifacts", "training", "model.h5")
+        model_path = os.path.join("model", "model.h5")
         
         # Check if model exists
         if not os.path.exists(model_path):
