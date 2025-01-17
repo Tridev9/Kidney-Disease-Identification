@@ -14,6 +14,7 @@ class PredictionPipeline:
     def predict(self):
         # load model
          # Get the absolute path to the model file
+         #try to link the training file to model folder
         model_path = os.path.join(os.path.dirname(os.path.dirname(__file__)), "model", "model.h5")
         
         # Check if model exists
