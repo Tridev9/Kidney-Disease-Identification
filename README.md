@@ -86,7 +86,7 @@ export MLFLOW_TRACKING_PASSWORD=ed67f448650b91c9b3f14076b0ad6115300fb7ea
 ### DVC cmd
 
 1. dvc init
-2. dvc repro
+2. dvc repro : #use this command to run fast and efficient flow 
 3. dvc dag
 
 
